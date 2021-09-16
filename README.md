@@ -13,3 +13,8 @@ C:\Windows\System32> Set-ExecutionPolicy RemoteSigned
 ```powershell
 cd $Env:USER_HOME ; .\Script.ps1
 ```
+
+> Para executar numa única liha de comando, utilizando a snippet abaixo
+> ```powershell
+> Set-ExecutionPolicy RemoteSigned ; $Env:USER_HOME="$Env:USERPROFILE\Desktop" ; cd $Env:USER_HOME ; .\Script.ps1
+> ```
