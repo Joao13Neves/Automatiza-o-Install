@@ -11,6 +11,5 @@ C:\Windows\System32> Set-ExecutionPolicy RemoteSigned
 3. Criar arquivo na área de trabalho com extensão .ps1
 4. Executar arquivo com código de execução do Git
 ```powershell
-cd $Env:USER_HOME
-.\Script.ps1
+cd $Env:USER_HOME ; .\Script.ps1
 ```
