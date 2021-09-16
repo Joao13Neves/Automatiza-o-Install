@@ -7,7 +7,7 @@
 ```powershell
 C:\Windows\System32> Set-ExecutionPolicy RemoteSigned
 ```
-2.1. set $Env:USER_HOME="$Env:USERPROFILE\Desktop"
+2.1. $Env:USER_HOME="$Env:USERPROFILE\Desktop"
 3. Criar arquivo na área de trabalho com extensão .ps1
 4. Executar arquivo com código de execução do Git
 ```powershell
