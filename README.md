@@ -2,19 +2,9 @@
 
 ### Permitindo Execução de Scripts
 
-1. Abrir Powershell como Administrador (Win + X, A)
-2. Executar linha de comando para permitir execução de Scripts.ps1
+1. Salvar arquivo com nome `Script.ps1` na Área de Trabalho
+2. Abrir Powershell como Administrador (Win + X, A)
+3. Executar liha de comando abaixo para executar o Script PowerShell
 ```powershell
-C:\Windows\System32> Set-ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy RemoteSigned ; $Env:USER_HOME="$Env:USERPROFILE\Desktop" ; cd $Env:USER_HOME ; .\Script.ps1
 ```
-2.1. $Env:USER_HOME="$Env:USERPROFILE\Desktop"
-3. Criar arquivo na área de trabalho com extensão .ps1
-4. Executar arquivo com código de execução do Git
-```powershell
-cd $Env:USER_HOME ; .\Script.ps1
-```
-
-> Para executar numa única liha de comando, utilizando a snippet abaixo
-> ```powershell
-> Set-ExecutionPolicy RemoteSigned ; $Env:USER_HOME="$Env:USERPROFILE\Desktop" ; cd $Env:USER_HOME ; .\Script.ps1
-> ```
