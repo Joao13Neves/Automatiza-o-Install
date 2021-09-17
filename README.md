@@ -1,5 +1,11 @@
 ## Instalando Dependências em Máquinas Novas
 
+### Invocando Script Sem Criar Arquivo
+
+```powershell
+iex (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Joao13Neves/Automatiza-o-Install/main/install.ps1')
+```
+
 ### Permitindo Execução de Scripts
 
 1. Salvar arquivo com nome `Script.ps1` na Área de Trabalho
