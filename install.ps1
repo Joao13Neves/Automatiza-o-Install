@@ -23,6 +23,9 @@ cinst winrar -Y
 Write-Host "Instlaling Git"
 cinst git -Y
 
+Write-Host "Installing Office 365 Business"
+cinst office365business -Y
+
 # This is a line of comment
 # TLS Setting
 # [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
