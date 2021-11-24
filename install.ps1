@@ -23,8 +23,11 @@ cinst openjdk --version=11.0.2.01 -Y
 Write-Host "Installing Winrar"
 cinst winrar -Y
 
-Write-Host "Instlaling Git"
+Write-Host "Installing Git"
 cinst git -Y
+
+Write-Host "Installing AnyDesk Exe"
+cinst anydesk -Y
 
 # This is a line of comment
 # TLS Setting
