@@ -27,7 +27,7 @@ Write-Host "Installing Git"
 cinst git -Y
 
 Write-Host "Installing AnyDesk Exe"
-cinst anydesk -Y
+cinst anydesk.install -Y
 
 # This is a line of comment
 # TLS Setting
