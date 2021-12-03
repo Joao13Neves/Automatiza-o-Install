@@ -29,6 +29,9 @@ cinst git -Y
 Write-Host "Installing AnyDesk Exe"
 cinst anydesk.install -Y
 
+Write-Host "Installing TeamViewer"
+cinst teamviewer9 -Y
+
 # This is a line of comment
 # TLS Setting
 # [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
