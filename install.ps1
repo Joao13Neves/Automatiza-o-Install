@@ -15,7 +15,7 @@ Write-Host "Updating Chocolatey"
 choco upgrade chocolatey
 
 Write-Host "Installing Google Chrome"
-cinst googlechrome --version=96.0.4664.45 -Y
+cinst googlechrome --version=96.0.4664.93 -Y
 
 Write-Host "Installing Java (JDK)"
 cinst openjdk --version=11.0.2.01 -Y
