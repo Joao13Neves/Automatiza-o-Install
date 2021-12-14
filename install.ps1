@@ -17,8 +17,8 @@ choco upgrade chocolatey
 Write-Host "Installing Google Chrome"
 cinst googlechrome --version=96.0.4664.110 -Y
 
-Write-Host "Installing Java (JDK)"
-cinst openjdk --version=11.0.2.01 -Y
+Write-Host "Installing Java Runtime(JRE)"
+cinst javaruntime --version=8.0.231 -Y
 
 Write-Host "Installing Winrar"
 cinst winrar -Y
