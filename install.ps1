@@ -32,6 +32,9 @@ cinst anydesk.install --version=7.0.4 -Y
 Write-Host "Installing CCleaner"
 cinst ccleaner --version=5.87.9306 -Y
 
+Write-Host "Installing Adobe Acrobat Reader DC"
+cinst adobereader --version=2021.007.20099 -Y
+
 # This is a line of comment
 # TLS Setting
 # [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
