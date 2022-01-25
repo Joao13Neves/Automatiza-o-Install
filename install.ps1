@@ -21,7 +21,7 @@ Write-Host "Installing Java (JDK)"
 cinst jdk8 --version=8.0.211 -Y
 
 Write-Host "Installing Winrar"
-cinst winrar -Y
+cinst winrar --version=6.10 -Y
 
 Write-Host "Installing Git"
 cinst git -Y
