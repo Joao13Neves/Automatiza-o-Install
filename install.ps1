@@ -27,7 +27,7 @@ Write-Host "Installing Git"
 cinst git -Y
 
 Write-Host "Installing AnyDesk Exe"
-cinst anydesk.install --version=7.0.4 -Y
+cinst anydesk.install --version=7.0.5 -Y
 
 Write-Host "Installing CCleaner"
 cinst ccleaner --version=5.87.9306 -Y
