@@ -33,7 +33,7 @@ Write-Host "Installing CCleaner"
 cinst ccleaner --version=5.90.9443 -Y
 
 Write-Host "Installing Adobe Acrobat Reader DC"
-cinst adobereader --version=2021.011.20039 -Y
+cinst adobereader --version=2022.001.20085 -Y
 
 # This is a line of comment
 # TLS Setting
