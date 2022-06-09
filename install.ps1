@@ -15,7 +15,7 @@ Write-Host "Updating Chocolatey"
 choco upgrade chocolatey
 
 Write-Host "Installing Google Chrome"
-cinst googlechrome --version=100.0.4896.88 -Y
+cinst googlechrome --version=102.0.5005.63 -Y
 
 Write-Host "Installing Java (JDK)"
 cinst jdk8 --version=8.0.211 -Y
@@ -27,7 +27,7 @@ Write-Host "Installing Git"
 cinst git -Y
 
 Write-Host "Installing AnyDesk Exe"
-cinst anydesk.install --version=7.0.7 -Y
+cinst anydesk.install --version=7.0.10 -Y
 
 Write-Host "Installing CCleaner"
 cinst ccleaner --version=5.91.9537 -Y
