@@ -18,10 +18,10 @@ Write-Host "Installing Google Chrome"
 cinst googlechrome --version=103.0.5060.114 -Y
 
 Write-Host "Installing Java (JDK)"
-cinst jdk8 --version=8.0.211 -Y
+cinst jdk8 --version=8.0.231 -Y
 
 Write-Host "Installing Winrar"
-cinst winrar --version=6.11 -Y
+cinst winrar --version=6.11.0.20220504 -Y
 
 Write-Host "Installing Git"
 cinst git -Y
